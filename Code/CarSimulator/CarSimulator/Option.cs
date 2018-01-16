@@ -17,7 +17,7 @@ namespace CarSimulator
 
         public string HereIsOptionsList()
         {
-            return ListOfOptions + "\n" + "type 1 to do something"  + "\n" + "Type 2 to do something" + "\n" + "Type 3 to do something";
+            return ListOfOptions + "\n" + "type 1 to see a list of all the cars"  + "\n" + "Type 2 to do something" + "\n" + "Type 3 to do something";
         }
 
        

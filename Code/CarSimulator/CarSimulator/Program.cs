@@ -14,17 +14,19 @@ namespace CarSimulator
         {
             Car car;
             Option option;
-            
+            CarList carList;
         
 
    
 
             car = new Car("Car Simulator");
             option = new Option("Option list");
+            carList = new CarList("This is all the cars we have available");
+
 
             Console.WriteLine(car.Welcome());
             Console.WriteLine(option.HereIsOptionsList());
-
+            
 
             bool firstloop = true;
             
@@ -40,7 +42,9 @@ namespace CarSimulator
                 }
                 if (answar == 1)
                 {
-                    Console.WriteLine("this works");
+                    Console.WriteLine(carList.HereIsAllOfTheCars());
+
+
                 } 
                 else if (answar == 2)
                 {
@@ -52,6 +56,7 @@ namespace CarSimulator
                 }
                 else if (answar == 123)
                 {
+                    Console.WriteLine("This is the end");
                     firstloop = false;
                 }
             }
