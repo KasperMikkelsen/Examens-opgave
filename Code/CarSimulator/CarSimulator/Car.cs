@@ -8,6 +8,7 @@ namespace CarSimulator
 {
     class Car
     {
+
         private string ShopName;
 
 
@@ -18,7 +19,7 @@ namespace CarSimulator
 
         public string Welcome()
         {
-            return "Welcome to " + ShopName + " wejowjpo";
+            return "Hello and Welcome to " + ShopName + " Here is the list of options you can choose";
         }
 
         public string ShopDe
