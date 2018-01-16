@@ -40,15 +40,19 @@ namespace CarSimulator
                 }
                 if (answar == 1)
                 {
-                    Console.WriteLine("jijfeipfjepijf");
+                    Console.WriteLine("this works");
                 } 
                 else if (answar == 2)
                 {
-                    Console.WriteLine("fefefefefef");
+                    Console.WriteLine("this works");
                 }
                 else if (answar == 3)
                 {
-                    Console.WriteLine("ojfejfojefpojefpojef");
+                    Console.WriteLine("this works");
+                }
+                else if (answar == 123)
+                {
+                    firstloop = false;
                 }
             }
 
