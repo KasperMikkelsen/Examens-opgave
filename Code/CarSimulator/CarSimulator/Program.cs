@@ -29,7 +29,8 @@ namespace CarSimulator
             
 
             bool firstloop = true;
-            
+            //bool secondloop = true;
+
             while(firstloop)
             {
                 try
@@ -48,17 +49,22 @@ namespace CarSimulator
                 } 
                 else if (answar == 2)
                 {
-                    Console.WriteLine("this works");
+                    Console.WriteLine(carList.HereIsAllOfTheCars());
+                    Console.WriteLine("\n" + "Choose one of the cars to see all the detailes about the car");
                 }
                 else if (answar == 3)
                 {
                     Console.WriteLine("this works");
                 }
-                else if (answar == 123)
+                else if (answar > 3)
                 {
                     Console.WriteLine("This is the end");
                     firstloop = false;
                 }
+
+
+
+
             }
 
             Console.ReadKey();
