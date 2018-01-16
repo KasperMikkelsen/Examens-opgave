@@ -10,6 +10,14 @@ namespace CarSimulator
     {
         static void Main(string[] args)
         {
+            Car car;
+
+
+            car = new Car("Car Simulator");
+
+            Console.WriteLine(car.Welcome());
+
+            Console.ReadKey();
         }
     }
 }
