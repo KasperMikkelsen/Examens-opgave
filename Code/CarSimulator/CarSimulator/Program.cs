@@ -28,11 +28,13 @@ namespace CarSimulator
             Console.WriteLine(option.HereIsOptionsList());
             
 
-           // bool firstloop = true;
-            //bool secondloop = false;
+            bool firstloop = true;
+        
 
-       
-            
+
+
+            while (firstloop)
+            {
                 try
                 {
                     answar = int.Parse(Console.ReadLine().ToLower().Trim());
@@ -46,35 +48,35 @@ namespace CarSimulator
                     Console.WriteLine(carList.HereIsAllOfTheCars());
 
 
-                } 
+                }
                 else if (answar == 2)
                 {
                     Console.WriteLine(carList.HereIsAllOfTheCars());
-                    Console.WriteLine("\n" + "Choose one of the cars to see all the detailes about the car");
+                    firstloop = false;
                     
-                    if (answar == 1 ) {
-                    Console.WriteLine("This worked");
-
                 }
 
-                
-                
-                }
                 else if (answar == 3)
                 {
                     Console.WriteLine("this works");
                 }
-                else if (answar > 3)
+                else if (answar > 4)
                 {
                     Console.WriteLine("This is the end");
-                    
+                    firstloop = false;
+
                 }
 
-                
-
+            }
+            
+            Console.WriteLine("\n" + "Choose one of the cars to see all the detailes about the car");
+            Console.WriteLine(carList.HereIsAllOfTheCars());
 
             
 
+
+
+            Console.ReadKey();
             
         }
     }
