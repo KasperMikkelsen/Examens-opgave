@@ -12,6 +12,7 @@ namespace CarSimulator
         public int wheels;
         public int windows;
         public int doors;
+        public int seat;
         
 
 
@@ -21,6 +22,7 @@ namespace CarSimulator
             doors = 4;
             engine = 1;
             windows = 5;
+            seat = 4;
 
             Console.WriteLine(wheels + doors + engine + windows);
         }
