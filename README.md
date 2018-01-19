@@ -14,7 +14,7 @@
 #in order to use the options you will have to type the number that correspondsto that option
 #
 #
-#
+#In order to see the uml diagram you have to open it in word
 #
 #
 #
