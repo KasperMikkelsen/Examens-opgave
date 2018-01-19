@@ -21,7 +21,8 @@ namespace CarSimulator
 
         public string Welcome()
         {
-            return "Hello and Welcome to " + ShopName + " Here is the list of options you can choose";
+            return "Hello and Welcome to " + ShopName + " Here is the list of options you can choose \n each option has a number \n type it to use that option";
+            
         }
 
         public string ShopDe

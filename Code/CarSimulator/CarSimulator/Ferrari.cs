@@ -10,18 +10,18 @@ namespace CarSimulator
     {
         private string InfoAboutFerrari;
 
-        public Lamborghini(string InfoAboutLamborghini)
+        public Ferrari(string InfoAboutFerrari)
         {
-            this.InfoAboutFerrari = InfoAboutLamborghini;
+            this.InfoAboutFerrari = InfoAboutFerrari;
         }
 
-        public string Infomationlamborghini()
+        public string InfomationFerrari()
         {
-            return InfoAboutFerrari + "\n Lamborghini" + "\n it has \n 3 doors \n 1 engine \n 2 seats \n 2 headlights \n 2 backlights \n reverse camera \n and the price of this car is \n 2.500.000kr.";
+            return InfoAboutFerrari + "\n Ferrari" + "\n it has \n 3 doors \n 1 engine \n 2 seats \n 2 headlights \n 2 backlights \n reverse camera \n and the price of this car is \n 1.750.000kr.";
         }
 
 
-        public string AudiDe
+        public string FerraieDe
         {
             get { return InfoAboutFerrari; }
             set { InfoAboutFerrari = value; }
@@ -29,5 +29,4 @@ namespace CarSimulator
     }
 
 }
-    }
-}
+

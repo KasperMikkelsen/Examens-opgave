@@ -21,7 +21,7 @@ namespace CarSimulator
         }
 
 
-        public string AudiDe
+        public string LamborghiniDe
         {
             get { return InfoAboutLamborghini; }
             set { InfoAboutLamborghini = value; }

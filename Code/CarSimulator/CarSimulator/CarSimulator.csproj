@@ -45,6 +45,7 @@
     <Compile Include="Audi.cs" />
     <Compile Include="Car.cs" />
     <Compile Include="CarList.cs" />
+    <Compile Include="Ferrari.cs" />
     <Compile Include="Lamborghini.cs" />
     <Compile Include="Option.cs" />
     <Compile Include="Program.cs" />
