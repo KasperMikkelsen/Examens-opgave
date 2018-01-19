@@ -17,7 +17,8 @@ namespace CarSimulator
 
         public string HereIsAllOfTheCars()
         {
-            return ListOfcars + "\n" + "Audi" + "\n" + "Ferrari" + "\n" + "Lamborghini";
+            Console.WriteLine("You have to type the number that represent the car in order to see infomation about the car");
+            return ListOfcars + "\n" + "5 Audi" + "\n" + "6 Ferrari" + "\n" + "7 Lamborghini";
         }
 
 
